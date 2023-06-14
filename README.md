@@ -1,2 +1,4 @@
-1.  npm run server - START SERVE for download initial state
-2.  npm run start - START TODO application
+1.  npm run serve - START SERVER  
+2.  npm run start - START APP
+
+Stack: React, Redux Toolkit, node js, express.
