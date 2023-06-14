@@ -1,0 +1,8 @@
+.list {
+	padding-bottom: 20px;
+	max-height: 380px;
+	overflow-y: scroll;
+}
+
+@media (min-width: 500px) {
+}

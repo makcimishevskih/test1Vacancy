@@ -1,0 +1,65 @@
+{
+	"name": "test",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"@reduxjs/toolkit": "^1.9.5",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^16.18.35",
+		"@types/react": "^18.2.10",
+		"@types/react-dom": "^18.2.4",
+		"body-parser": "^1.20.2",
+		"express": "^4.18.2",
+		"nanoid": "^4.0.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-loader-spinner": "^5.3.4",
+		"react-redux": "^8.0.7",
+		"react-scripts": "5.0.1",
+		"react-transition-group": "^4.4.5",
+		"typescript": "^4.9.5",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"serve": "node server/server.js",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"t": "react-scripts test",
+		"jest": "jest",
+		"jest1": "jest --notify --config=config.json",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.22.5",
+		"@babel/preset-react": "^7.22.5",
+		"@jest/globals": "^29.5.0",
+		"@types/react-transition-group": "^4.4.6",
+		"@types/redux-mock-store": "^1.0.3",
+		"babel-jest": "^29.5.0",
+		"jest": "^27.5.1",
+		"react-test-renderer": "^18.2.0",
+		"redux-mock-store": "^1.5.4"
+	}
+}

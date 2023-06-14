@@ -1,0 +1,20 @@
+.my-list-enter {
+	opacity: 0.01;
+	transform: translateY(-50%);
+}
+.my-list-enter-active {
+	opacity: 0.4;
+	transform: translateY(0);
+	transition: all var(--animationDelay) ease-in;
+}
+
+.my-list-exit {
+	transform: translateY(0);
+	transition: all var(--animationDelay) ease-in;
+	opacity: 1;
+}
+.my-list-exit-active {
+	opacity: 0.2;
+	transform: translateY(-50%);
+	transition: all var(--animationDelay) ease-in;
+}

@@ -1,0 +1,68 @@
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px;
+}
+
+.wrapper {
+	position: relative;
+
+	width: 90%;
+
+	min-height: 240px;
+	max-height: 240px;
+	transition: max-height 0.5s ease-in-out;
+
+	text-align: center;
+}
+
+.wrapper.active {
+	max-height: 1000px;
+	transition: max-height 0.5s ease-in-out;
+}
+
+.card0,
+.card1,
+.card2 {
+	background-color: var(--white1000);
+
+	box-shadow: 0px 8px 10px 0px var(--black100);
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.card1,
+.card2 {
+	height: 30px;
+
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.card1 {
+	bottom: -10px;
+	z-index: -1;
+	width: 98%;
+}
+.card2 {
+	bottom: -20px;
+	height: 50px;
+	z-index: -2;
+
+	width: 95%;
+}
+
+.content {
+	padding: 0 20px;
+
+	/* min-height: inherit; */
+}
+
+.listWrapper {
+	overflow: hidden;
+	height: inherit;
+	flex-grow: 1;
+	margin-bottom: 50px;
+}
