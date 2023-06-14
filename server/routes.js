@@ -9,8 +9,6 @@ module.exports = function (app) {
 		const data = await readFile(__dirname + `/${dataPath}`);
 
 		res.send(data);
-		// res.json(data);
-		// console.log(`Example app listening on port`);
 	});
 
 	app.post('/post', bodyParser.json(), async (req, res) => {
